@@ -79,16 +79,35 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.performSegue(withIdentifier: "detailSegue", sender: self)
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender:Any?) {
-        if(segue.identifier == "detailSegue") {
-            let indexPath = self.JdmCars.indexPathForSelectedRow!
-            let tableViewDetail = segue.destination as? TableViewDetail
-            let selectedCar = JdmCars [indexPath.row]
-            tableViewDetail!.selectedCar = selectedCar
-            self.Cars.deselectRow(at: indexPath, animated: true)
-        }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        self.performSegue(withIdentifier: "detailSegue", sender: self)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if(segue.identifier == "detailSegue")
+        {
+            let indexPath = self.table.indexPathForSelectedRow!
+            
+            let tableViewDetail = segue.destination as? TableViewDetail
+            
+            let selectedCar = carList[indexPath.row]
+            
+            tableViewDetail!.selectedCar = selectedCar
+            
+            self.table.deselectRow(at: indexPath, animated: true)
+        }
+        func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+            return 140
+        }
+        func tableView(_ tableView: UITableView, widthForRowAt indexPath: IndexPath) -> CGFloat {
+            return 25
+    }
+    }
+        }
+    
    
-}
+
 
 

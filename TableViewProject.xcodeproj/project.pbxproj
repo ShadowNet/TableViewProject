@@ -56,7 +56,6 @@
 		029FEFA0281859230015BF03 /* TableViewProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewProjectUITests.swift; sourceTree = "<group>"; };
 		029FEFA2281859230015BF03 /* TableViewProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		029FEFAF281860740015BF03 /* JDM CARS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "JDM CARS"; sourceTree = "<group>"; };
-		029FEFB1281860A10015BF03 /* Nissan 240sx.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nissan 240sx.jpeg"; sourceTree = "<group>"; };
 		029FEFB228186E810015BF03 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		029FEFB42818C1DC0015BF03 /* TableViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDetail.swift; sourceTree = "<group>"; };
 		029FEFB62818D5870015BF03 /* Cars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
@@ -121,7 +120,6 @@
 				029FEFBA28197A010015BF03 /* PinkTableViewController.swift */,
 				029FEFB42818C1DC0015BF03 /* TableViewDetail.swift */,
 				029FEF88281859220015BF03 /* Assets.xcassets */,
-				029FEFB1281860A10015BF03 /* Nissan 240sx.jpeg */,
 				029FEFAF281860740015BF03 /* JDM CARS */,
 				029FEF8A281859220015BF03 /* LaunchScreen.storyboard */,
 				029FEF8D281859220015BF03 /* Info.plist */,
