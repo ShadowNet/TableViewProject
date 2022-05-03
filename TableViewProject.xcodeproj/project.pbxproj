@@ -20,8 +20,6 @@
 		029FEFB328186E810015BF03 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029FEFB228186E810015BF03 /* CustomTableViewCell.swift */; };
 		029FEFB52818C1DC0015BF03 /* TableViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029FEFB42818C1DC0015BF03 /* TableViewDetail.swift */; };
 		029FEFB72818D5870015BF03 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029FEFB62818D5870015BF03 /* Cars.swift */; };
-		029FEFBB28197A010015BF03 /* PinkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029FEFBA28197A010015BF03 /* PinkTableViewController.swift */; };
-		029FEFBD28197B200015BF03 /* PurpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029FEFBC28197B200015BF03 /* PurpleTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +57,6 @@
 		029FEFB228186E810015BF03 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		029FEFB42818C1DC0015BF03 /* TableViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDetail.swift; sourceTree = "<group>"; };
 		029FEFB62818D5870015BF03 /* Cars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
-		029FEFBA28197A010015BF03 /* PinkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkTableViewController.swift; sourceTree = "<group>"; };
-		029FEFBC28197B200015BF03 /* PurpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +112,6 @@
 				029FEF83281859210015BF03 /* TableViewController.swift */,
 				029FEFB62818D5870015BF03 /* Cars.swift */,
 				029FEF85281859210015BF03 /* Main.storyboard */,
-				029FEFBC28197B200015BF03 /* PurpleTableViewController.swift */,
-				029FEFBA28197A010015BF03 /* PinkTableViewController.swift */,
 				029FEFB42818C1DC0015BF03 /* TableViewDetail.swift */,
 				029FEF88281859220015BF03 /* Assets.xcassets */,
 				029FEFAF281860740015BF03 /* JDM CARS */,
@@ -277,8 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				029FEFBB28197A010015BF03 /* PinkTableViewController.swift in Sources */,
-				029FEFBD28197B200015BF03 /* PurpleTableViewController.swift in Sources */,
 				029FEF84281859210015BF03 /* TableViewController.swift in Sources */,
 				029FEF80281859210015BF03 /* AppDelegate.swift in Sources */,
 				029FEFB328186E810015BF03 /* CustomTableViewCell.swift in Sources */,

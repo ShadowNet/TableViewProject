@@ -24,7 +24,7 @@ class TableViewDetail: UIViewController
     {
         super.viewDidLoad()
         
-        name.text = selectedCar.id + " - " + selectedCar.name
+        name.text = selectedCar.id+" - " + selectedCar.name
         image.image = UIImage(named: selectedCar.imageName)
     }
 }

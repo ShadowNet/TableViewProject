@@ -92,9 +92,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
             let tableViewDetail = segue.destination as? TableViewDetail
             
-            let selectedCar = carList[indexPath.row]
+            let selectedCar = carList
             
-            tableViewDetail!.selectedCar = selectedCar
+           // tableViewDetail!.selectedCar = selectedCar
             
             self.table.deselectRow(at: indexPath, animated: true)
         }
