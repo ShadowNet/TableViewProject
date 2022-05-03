@@ -171,22 +171,6 @@
             </objects>
             <point key="canvasLocation" x="121.73913043478262" y="123.88392857142857"/>
         </scene>
-        <!--Purple Table View Controller-->
-        <scene sceneID="7s3-pZ-hJh">
-            <objects>
-                <viewController id="SOj-jE-zKh" customClass="PurpleTableViewController" customModule="TableViewProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3qO-Q1-ko4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="qmo-Ct-u6U"/>
-                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="sDp-PT-mxg"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1Ez-om-KtI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1317" y="185"/>
-        </scene>
         <!--Pink View Controller-->
         <scene sceneID="32h-r4-ocS">
             <objects>
@@ -204,9 +188,6 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=" "/>
-                                <connections>
-                                    <segue destination="SOj-jE-zKh" kind="show" id="Wp8-nP-wQ8"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jTT-qi-naw"/>
@@ -226,9 +207,6 @@
         <image name="r34GTR.jpeg" width="1024" height="791"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPurpleColor">
             <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
